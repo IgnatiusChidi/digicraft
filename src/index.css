@@ -1,0 +1,652 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    z-index: 0;
+    overflow-x: hidden;
+}
+
+nav{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 70px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: #F7B538;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li{
+    margin: 15px;
+}
+
+.link{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    transition: 0.5s;
+}
+
+.link:hover{
+    color: #00BBF9;
+}
+
+.link.activeLink{
+    color: #00BBF9;
+}
+
+.button{
+    margin: 20px 0px;
+    background-color: black;
+    color: black;
+    font-size: 20px;
+    padding: 5px 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: #00BBF9;
+    box-shadow: 2px 2px 0px black;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.button:hover{
+    background-color: #12c4ff;
+    box-shadow: 2px 1px 0px black;
+}
+
+#heroSection{
+    width: 100vw;
+    height: 90vh;
+    display: grid;
+    justify-content: center;
+    padding: 0px;
+    background-color: #F7B538;
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+#hero{
+    display: flex;
+    width: 100vw;
+    height: 90vh;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0px 100px;
+    margin: 0px;
+}
+
+#heroText h1{
+    color: black;
+    font-size: 50px;
+}
+
+#heroText p{
+    color: black;
+    font-size: 20px;
+    margin: 0px;
+}
+
+#hero img{
+    width: 550px;
+    margin: 0px;
+}
+
+#serviceText h1{
+    color: black;
+    font-size: 30px;
+}
+
+#services{
+    width: 100vw;
+    height: 90vh;
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    background-color: #F7B538;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+#serviceCardDiv{
+    width: 100vw;
+    height: 75vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.serviceCard{
+    width: 300px;
+    height: 250px;
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: 4px 4px 0px black;
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.serviceCard img{
+    width: 150px;
+}
+
+.serviceCard h3{
+    font-size: 20px;
+}
+
+#serviceCard1{
+    background-color: #00BBF9;
+}
+
+#serviceCard2{
+    background-color: #E4C1F9;
+}
+
+#serviceCard3{
+    background-color: #ffcf76;
+}
+
+#Contact{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px;
+    padding: 0px 50px;
+    background-color: #F7B538;
+    box-sizing: border-box;
+}
+
+#Contact form{
+    height: 70vh;
+    display: grid;
+    justify-items: center;
+    background-color: #00BBF9;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 3px solid black;
+    box-shadow: 4px 4px 0px black;
+}
+
+#Contact form h3{
+    font-size: 25px;
+}
+
+#Contact form input{
+    width: 300px;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    padding: 3px 10px;
+    font-size: 18px;
+}
+
+#Contact form #message{
+    height: 150px;
+    width: 300px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 10px 12px;
+}
+
+#Contact form button{
+    background-color: #F7B538;
+    border: 2px solid black;
+    box-shadow: 2px 2px 0px black;
+    border-radius: 5px;
+    height: 45px;
+    width: 200px;
+    color: black;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#Contact form button:hover{
+    background-color: #ffcf76;
+}
+
+#info{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    height: 50vh;
+    display: grid;
+    justify-content: space-around;
+    border: 3px solid #00BBF9;
+    box-shadow: 4px 4px 0px#00BBF9;
+    border-radius: 20px;
+}
+
+#about{
+    width: 100vw;
+    height: 90vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: #F7B538;
+}
+
+#about h1{
+    margin: 0px;
+}
+
+#aboutDiv{
+    width: 50vw;
+    height: 40vh;
+    background-color: #00BBF9;
+    border: 3px solid black;
+    box-shadow: 4px 4px 0px black;
+    font-size: 25px;
+    color: black;
+    padding: 30px 60px;
+    border-radius: 30px;
+    margin-bottom: 60px;
+}
+
+#closeMenuDiv{
+    display: none;
+}
+
+#hbDiv{
+    display: none;
+}
+
+
+
+
+
+@media all and (max-width: 1200px){
+    .link{
+        font-size: 18px;
+    }
+    
+    .button{
+        margin: 15px 0px;
+        font-size: 18px;
+        padding: 4px 8px;
+        border: 2px solid black;
+    }
+    
+    #hero{
+        padding: 0px 70px;
+    }
+    
+    #heroText h1{
+        font-size: 35px;
+    }
+    
+    #heroText p{
+        font-size: 20px;
+    }
+    
+    #hero img{
+        width: 400px;
+    }
+}
+
+@media all and (max-width: 992px){
+    nav{
+        padding: 0px 70px;
+    }
+    
+    nav ul li{
+        margin: 10px;
+    }
+    
+    .link{
+        font-size: 18px;
+    }
+    
+    .button{
+        margin: 15px 0px;
+        font-size: 18px;
+        padding: 4px 8px;
+        border: 2px solid black;
+    }
+    
+    #hero{
+        padding: 0px 50px;
+    }
+    
+    #heroText h1{
+        font-size: 30px;
+    }
+    
+    #heroText p{
+        font-size: 16px;
+    }
+    
+    #hero img{
+        width: 350px;
+    }
+    
+    #serviceText h1{
+        font-size: 20px;
+    }
+    
+    #services{
+        padding: 0px;
+    }
+    
+    .serviceCard{
+        width: 200px;
+        height: 200px;
+    }
+    
+    .serviceCard img{
+        width: 100px;
+    }
+    
+    .serviceCard h3{
+        font-size: 18px;
+    }
+    
+    #Contact{
+        padding: 0px 20px;
+    }
+    
+    #Contact form{
+        padding: 10px 20px;
+    }
+    
+    #Contact form h3{
+        font-size: 20px;
+    }
+    
+    #Contact form input{
+        width: 250px;
+        height: 30px;
+        border-radius: 10px;
+        padding: 2px 8px;
+        font-size: 18px;
+    }
+
+    #Contact form #message{
+        height: 150px;
+        width: 250px;
+        font-size: 18px;
+        padding: 10px 12px;
+    }
+    
+    #Contact form button{
+        height: 40px;
+        width: 150px;
+        font-size: 20px;
+    }
+    
+    #Contact form button:hover{
+        background-color: #ffcf76;
+    }
+    
+    #info{
+        font-size: 18px;
+        padding: 0px 20px;
+        height: 45vh;
+        border-radius: 20px;
+    }
+    
+    #aboutDiv{
+        font-size: 18px;
+        padding: 0px 30px;
+        padding-top: 30px;
+    }
+}
+
+@media all and (max-width: 768px){
+    #hbDiv{
+        display: block;
+        cursor: pointer;
+        position: absolute;
+        margin-right: 40px;
+        right: 0px;
+    }
+
+    #hbDiv.lineAni .line:nth-child(1){
+        transform: translateY(7px) rotate(45deg);
+    }
+    
+    #hbDiv.lineAni .line:nth-child(2){
+        opacity: 0;
+    }
+
+    #hbDiv.lineAni .line:nth-child(3){
+        transform: translateY(-7px) rotate(-45deg);
+    }
+
+    .line{
+        width: 30px;
+        height: 3px;
+        background-color: black;
+        margin: 4px 0px;
+        transition: 0.5s;
+    }
+    
+    nav{
+        padding: 0px 40px;
+        margin: 0px;
+    }
+    
+    nav ul{
+        position: absolute;
+        top: 0px;
+        left: -100vw;
+        height: 100vh;
+        width: 60vw;
+        background-color: #F7B538;
+        transition: 0.5s;
+        display: grid;
+        justify-content: center;
+        justify-items: center;
+        align-content: flex-start;
+        margin: 0px;
+        box-sizing: border-box;
+        padding: 5vh 0px;
+        z-index: 1;
+    }
+
+    nav ul.active{
+        left: 0px;
+    }
+    
+    nav ul li{
+        margin: 20px 0px;
+    }
+
+    #hbParent{
+        display: flex;
+        align-items: center;
+    }
+
+    #navButtonLink{
+        display: none;
+    }
+    
+    .link{
+        text-decoration: none;
+        font-size: 20px;
+        color: black;
+        transition: 0.5s;
+    }
+    
+    .button{
+        margin: 20px 0px;
+        background-color: black;
+        color: black;
+        font-size: 20px;
+        padding: 5px 10px;
+        border-radius: 5px;
+        background-color: #00BBF9;
+        box-shadow: 2px 2px 0px black;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+    
+    #hero{
+        display: grid;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        padding: 0px 0px;
+        text-align: center;
+        margin: 0px;
+        box-sizing: border-box;
+    }
+    
+    #heroText h1{
+        font-size: 35px;
+        margin: 0px;
+    }
+    
+    #heroText p{
+        font-size: 16px;
+        margin: 0px;
+    }
+    
+    #hero img{
+        width: 300px;
+        margin-bottom: 50px;
+    }
+    
+    #serviceText h1{
+        color: black;
+        font-size: 30px;
+        margin: 0px;
+    }
+    
+    #services{
+        width: 100vw;
+        height: max-content;
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        overflow-x: hidden;
+        display: grid;
+        justify-content: center;
+        align-content: center;
+    }
+
+    #serviceText{
+        margin: 0px;
+    }
+    
+    #serviceCardDiv{
+        width: 100vw;
+        height: 130vh;
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        display: grid;
+        justify-items: center;
+        justify-content: space-between;
+        justify-content: center;
+    }
+    
+    .serviceCard{
+        width: 300px;
+        height: 250px;
+        margin: 0px;
+        box-sizing: border-box;
+        cursor: pointer;
+    }
+    
+    .serviceCard img{
+        width: 150px;
+    }
+
+    .serviceCard h3{
+        font-size: 20px;
+    }
+
+    
+    #Contact{
+        width: 100vw;
+        height: 120vh;
+        display: grid;
+        justify-content: space-between;
+        justify-content: center;
+        padding: 0px 0px;
+        box-sizing: border-box;
+        margin: 0px;
+    }
+    
+    #Contact form{
+        height: 60vh;
+        padding: 10px 10px;
+    }
+    
+    #Contact form h3{
+        font-size: 18px;
+    }
+    
+    #Contact form input{
+        width: 220px;
+        height: 30px;
+        padding: 3px 10px;
+        font-size: 18px;
+    }
+
+    #Contact form #message{
+        height: 100px;
+        width: 220px;
+        border-radius: 10px;
+        padding: 5px 10px;
+    }
+    
+    #Contact form button{
+        height: 40px;
+        width: 150px;
+        font-size: 20px;
+    }
+    
+    #info{
+        font-size: 18px;
+        padding: 10px 10px;
+        height: 40vh;
+    }
+    
+    #aboutDiv{
+        font-size: 19px;
+        padding: 20px 50px;
+    }
+
+    #aboutDiv h1{
+        margin: 0px;
+    }
+
+    #overlay.overlayClass{
+        display: block;
+    }
+
+    #overlay{
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        left: 0px;
+        bottom: 0px;
+        background-color: rgba(0, 0, 0, 0.5);
+        backdrop-filter: blur(1px);
+        display: none;
+        transition: 0.3s;
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+}
