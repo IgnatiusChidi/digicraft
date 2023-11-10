@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import ad from './assets/undraw_online_ad_re_ol62.svg'
 
 
 function Hero() {
@@ -14,7 +15,7 @@ function Hero() {
           </Link>
         </div>
         <div>
-          <img src='./assets/undraw_online_ad_re_ol62.svg'/>
+          <img src={ad}/>
         </div>
       </div>
     </section>
