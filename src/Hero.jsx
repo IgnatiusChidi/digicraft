@@ -14,7 +14,7 @@ function Hero() {
           </Link>
         </div>
         <div>
-          <img src='src\assets\undraw_online_ad_re_ol62.svg'/>
+          <img src='.\assets\undraw_online_ad_re_ol62.svg'/>
         </div>
       </div>
     </section>
